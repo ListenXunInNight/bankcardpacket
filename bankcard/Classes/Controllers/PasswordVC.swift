@@ -22,7 +22,7 @@ class PasswordVC: UIViewController {
         case modify
         case unknow
     }
-
+    
     @IBOutlet weak var infoLab: UILabel!
     
     var charIndex: Int = -1
@@ -49,7 +49,6 @@ class PasswordVC: UIViewController {
     }
     
     // MARK: Clicked Btn
-    
     @IBAction func clickedNumberBtn(_ sender: UIButton) {
         
         guard charIndex < 5 else { return }
@@ -132,9 +131,17 @@ class PasswordVC: UIViewController {
             self.navigationController?.popViewController(animated: true)
         }
         else {
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "BankCardListVC")
             
-            self.navigationController?.setViewControllers([vc!], animated: true)
+            let nav = self.navigationController as! NavigationController
+            
+            if nav.cache.count == 0 {
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "BankCardListVC")
+                
+                self.navigationController?.setViewControllers([vc!], animated: true)
+            }
+            else {
+                self.navigationController?.setViewControllers(nav.cache, animated: true)
+            }
         }
     }
     
@@ -189,5 +196,17 @@ class PasswordVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+}
 
+// UIStoryboard
+extension PasswordVC {
+    
+    open class func passwordVC() -> PasswordVC {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let vc = storyboard.instantiateViewController(withIdentifier: "PassowrdVC") as! PasswordVC
+        
+        return vc
+    }
 }

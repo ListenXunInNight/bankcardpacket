@@ -14,7 +14,7 @@
         <!--设置密码-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="PasswordVC" customModule="bankcard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PassowrdVC" id="BYZ-38-t0r" customClass="PasswordVC" customModule="bankcard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qlC-js-lwJ"/>
                         <viewControllerLayoutGuide type="bottom" id="9hn-EN-QnN"/>
@@ -931,7 +931,7 @@
         <!--Navigation Controller-->
         <scene sceneID="vpW-9U-NdU">
             <objects>
-                <navigationController id="tZp-1b-LL6" sceneMemberID="viewController">
+                <navigationController id="tZp-1b-LL6" customClass="NavigationController" customModule="bankcard" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VKT-WA-yHL">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
