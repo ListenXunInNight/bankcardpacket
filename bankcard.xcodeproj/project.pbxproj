@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14F102A1FECEDC200E56E2F /* BankCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F10291FECEDC200E56E2F /* BankCardCell.swift */; };
+		A14F102C1FED02A900E56E2F /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F102B1FED02A900E56E2F /* UIImage+Extension.swift */; };
+		A14F102E1FED0BF700E56E2F /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F102D1FED0BF700E56E2F /* FileManager+Extension.swift */; };
+		A14F10301FED169300E56E2F /* AppInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F102F1FED169300E56E2F /* AppInit.swift */; };
+		A154DBDE1FEB611600B37EA6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154DBDD1FEB611600B37EA6 /* UIColor+Extension.swift */; };
+		A18122341FEFDE3800D670EC /* CGRect+Extesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18122331FEFDE3800D670EC /* CGRect+Extesion.swift */; };
+		A183DBFF1FF4E1470014992D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A183DBFE1FF4E1470014992D /* ActivityIndicator.swift */; };
+		A1936B051FED5AB90006C4B8 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1936B041FED5AB90006C4B8 /* String+Extension.swift */; };
+		A1936B071FED62CF0006C4B8 /* BankCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1936B061FED62CF0006C4B8 /* BankCardVC.swift */; };
+		A1AC49851FEE0F8100892176 /* SkinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC49841FEE0F8100892176 /* SkinVC.swift */; };
+		A1AC49871FEE0FA800892176 /* SkinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC49861FEE0FA800892176 /* SkinCell.swift */; };
+		A1AC49891FEE18B200892176 /* SkinReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC49881FEE18B200892176 /* SkinReusableView.swift */; };
+		A1AC498B1FEE1A7B00892176 /* color.ini in Resources */ = {isa = PBXBuildFile; fileRef = A1AC498A1FEE1A7B00892176 /* color.ini */; };
+		A1B3874C1FED3EB30047CD5B /* BankCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3874B1FED3EB30047CD5B /* BankCardModel.swift */; };
+		A1BDD0DF1FEB4FB0004E1572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BDD0DE1FEB4FB0004E1572 /* AppDelegate.swift */; };
+		A1BDD0E41FEB4FB0004E1572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BDD0E21FEB4FB0004E1572 /* Main.storyboard */; };
+		A1BDD0E61FEB4FB0004E1572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BDD0E51FEB4FB0004E1572 /* Assets.xcassets */; };
+		A1BDD0E91FEB4FB0004E1572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BDD0E71FEB4FB0004E1572 /* LaunchScreen.storyboard */; };
+		A1BDD0F51FEB5067004E1572 /* BasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BDD0F41FEB5067004E1572 /* BasicVC.swift */; };
+		A1BDD0F71FEB5080004E1572 /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BDD0F61FEB5080004E1572 /* PasswordVC.swift */; };
+		A1BDD1151FEB53F8004E1572 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BDD1141FEB53F8004E1572 /* NavigationController.swift */; };
+		A1C05D5B1FEF816D00F932C6 /* CopyLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C05D5A1FEF816D00F932C6 /* CopyLab.swift */; };
+		A1C2F2531FF4974F00549ACF /* Pods_bankcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C2F2541FF4974F00549ACF /* Pods_bankcard.framework */; };
+		A1EBF34B1FEB7DF600F01555 /* PwdCharLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBF34A1FEB7DF600F01555 /* PwdCharLab.swift */; };
+		A1EBF34E1FEB851100F01555 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBF34D1FEB851100F01555 /* UserDefaults+Extension.swift */; };
+		A1EBF3561FEB8C9100F01555 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1EBF3581FEB8C9100F01555 /* InfoPlist.strings */; };
+		A1EBF35C1FEB8DBD00F01555 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1EBF35E1FEB8DBD00F01555 /* Localizable.strings */; };
+		A1EBF3621FEB919C00F01555 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBF3601FEB919C00F01555 /* Alert.swift */; };
+		A1EBF3651FEB98A300F01555 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBF3641FEB98A300F01555 /* Localizable.swift */; };
+		A1EBF36F1FEB9D8A00F01555 /* BankCardListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBF36E1FEB9D8A00F01555 /* BankCardListVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A14F10291FECEDC200E56E2F /* BankCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardCell.swift; sourceTree = "<group>"; };
+		A14F102B1FED02A900E56E2F /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		A14F102D1FED0BF700E56E2F /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		A14F102F1FED169300E56E2F /* AppInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInit.swift; sourceTree = "<group>"; };
+		A154DBDD1FEB611600B37EA6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A18122331FEFDE3800D670EC /* CGRect+Extesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extesion.swift"; sourceTree = "<group>"; };
+		A183DBFE1FF4E1470014992D /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		A1936B041FED5AB90006C4B8 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		A1936B061FED62CF0006C4B8 /* BankCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardVC.swift; sourceTree = "<group>"; };
+		A1AC49801FEE02B600892176 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A1AC49831FEE02DC00892176 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A1AC49841FEE0F8100892176 /* SkinVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkinVC.swift; sourceTree = "<group>"; };
+		A1AC49861FEE0FA800892176 /* SkinCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkinCell.swift; sourceTree = "<group>"; };
+		A1AC49881FEE18B200892176 /* SkinReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkinReusableView.swift; sourceTree = "<group>"; };
+		A1AC498A1FEE1A7B00892176 /* color.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = color.ini; sourceTree = "<group>"; };
+		A1B3874B1FED3EB30047CD5B /* BankCardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardModel.swift; sourceTree = "<group>"; };
+		A1BDD0DB1FEB4FB0004E1572 /* bankcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bankcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BDD0DE1FEB4FB0004E1572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1BDD0E31FEB4FB0004E1572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1BDD0E51FEB4FB0004E1572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1BDD0E81FEB4FB0004E1572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1BDD0EA1FEB4FB0004E1572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BDD0F41FEB5067004E1572 /* BasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicVC.swift; sourceTree = "<group>"; };
+		A1BDD0F61FEB5080004E1572 /* PasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
+		A1BDD1141FEB53F8004E1572 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		A1C05D5A1FEF816D00F932C6 /* CopyLab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyLab.swift; sourceTree = "<group>"; };
+		A1C2F2541FF4974F00549ACF /* Pods_bankcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_bankcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C2F2571FF4975A00549ACF /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C2F2581FF4975A00549ACF /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C2F25D1FF4976500549ACF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C2F25E1FF4976500549ACF /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C2F25F1FF4976500549ACF /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C2F2601FF4976500549ACF /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EBF34A1FEB7DF600F01555 /* PwdCharLab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PwdCharLab.swift; sourceTree = "<group>"; };
+		A1EBF34D1FEB851100F01555 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		A1EBF3571FEB8C9100F01555 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		A1EBF3591FEB8C9300F01555 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1EBF35D1FEB8DBD00F01555 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1EBF35F1FEB8DBE00F01555 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1EBF3601FEB919C00F01555 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		A1EBF3641FEB98A300F01555 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		A1EBF3671FEB9BBD00F01555 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		A1EBF3681FEB9BBD00F01555 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
+		A1EBF3691FEB9BBD00F01555 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		A1EBF36E1FEB9D8A00F01555 /* BankCardListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardListVC.swift; sourceTree = "<group>"; };
+		A1FE61E51FF2372600639E9F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		A1FE61E61FF2372600639E9F /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		A1FE62141FF27FB100639E9F /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		DA7BFEB337E9B8E4DAFD86D7 /* Pods-bankcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bankcard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bankcard/Pods-bankcard.debug.xcconfig"; sourceTree = "<group>"; };
+		DC00115F8F445E03A2FFC31A /* Pods_bankcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bankcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC10D9CCC4596532E3B4D84B /* Pods-bankcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bankcard.release.xcconfig"; path = "Pods/Target Support Files/Pods-bankcard/Pods-bankcard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1BDD0D81FEB4FB0004E1572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C2F2531FF4974F00549ACF /* Pods_bankcard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D5A84CAD6ABD786304F40A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA7BFEB337E9B8E4DAFD86D7 /* Pods-bankcard.debug.xcconfig */,
+				DC10D9CCC4596532E3B4D84B /* Pods-bankcard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A154DBDC1FEB60FC00B37EA6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A154DBDD1FEB611600B37EA6 /* UIColor+Extension.swift */,
+				A1EBF34D1FEB851100F01555 /* UserDefaults+Extension.swift */,
+				A1EBF3601FEB919C00F01555 /* Alert.swift */,
+				A14F102B1FED02A900E56E2F /* UIImage+Extension.swift */,
+				A14F102D1FED0BF700E56E2F /* FileManager+Extension.swift */,
+				A1936B041FED5AB90006C4B8 /* String+Extension.swift */,
+				A18122331FEFDE3800D670EC /* CGRect+Extesion.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A1BDD0D21FEB4FB0004E1572 = {
+			isa = PBXGroup;
+			children = (
+				A1BDD0DD1FEB4FB0004E1572 /* bankcard */,
+				A1BDD0DC1FEB4FB0004E1572 /* Products */,
+				A1EBF3661FEB9BBD00F01555 /* Frameworks */,
+				07D5A84CAD6ABD786304F40A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A1BDD0DC1FEB4FB0004E1572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1BDD0DB1FEB4FB0004E1572 /* bankcard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1BDD0DD1FEB4FB0004E1572 /* bankcard */ = {
+			isa = PBXGroup;
+			children = (
+				A1EBF3531FEB8C7D00F01555 /* Res */,
+				A1BDD0F01FEB5027004E1572 /* Classes */,
+				A1BDD0DE1FEB4FB0004E1572 /* AppDelegate.swift */,
+				A1BDD0E21FEB4FB0004E1572 /* Main.storyboard */,
+				A1BDD0E51FEB4FB0004E1572 /* Assets.xcassets */,
+				A1BDD0E71FEB4FB0004E1572 /* LaunchScreen.storyboard */,
+				A1BDD0EA1FEB4FB0004E1572 /* Info.plist */,
+			);
+			path = bankcard;
+			sourceTree = "<group>";
+		};
+		A1BDD0F01FEB5027004E1572 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1EBF34C1FEB84F300F01555 /* Tools */,
+				A154DBDC1FEB60FC00B37EA6 /* Categories */,
+				A1BDD0F11FEB5027004E1572 /* Controllers */,
+				A1BDD0F21FEB5027004E1572 /* Models */,
+				A1BDD0F31FEB5027004E1572 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A1BDD0F11FEB5027004E1572 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1BDD0F41FEB5067004E1572 /* BasicVC.swift */,
+				A1BDD0F61FEB5080004E1572 /* PasswordVC.swift */,
+				A1BDD1141FEB53F8004E1572 /* NavigationController.swift */,
+				A1EBF36E1FEB9D8A00F01555 /* BankCardListVC.swift */,
+				A14F102F1FED169300E56E2F /* AppInit.swift */,
+				A1936B061FED62CF0006C4B8 /* BankCardVC.swift */,
+				A1AC49841FEE0F8100892176 /* SkinVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1BDD0F21FEB5027004E1572 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3874B1FED3EB30047CD5B /* BankCardModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1BDD0F31FEB5027004E1572 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1EBF34A1FEB7DF600F01555 /* PwdCharLab.swift */,
+				A14F10291FECEDC200E56E2F /* BankCardCell.swift */,
+				A1AC49861FEE0FA800892176 /* SkinCell.swift */,
+				A1AC49881FEE18B200892176 /* SkinReusableView.swift */,
+				A1C05D5A1FEF816D00F932C6 /* CopyLab.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1EBF34C1FEB84F300F01555 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A1EBF3641FEB98A300F01555 /* Localizable.swift */,
+				A183DBFE1FF4E1470014992D /* ActivityIndicator.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A1EBF3531FEB8C7D00F01555 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				A1AC498A1FEE1A7B00892176 /* color.ini */,
+				A1EBF3581FEB8C9100F01555 /* InfoPlist.strings */,
+				A1EBF35E1FEB8DBD00F01555 /* Localizable.strings */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		A1EBF3661FEB9BBD00F01555 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1C2F25D1FF4976500549ACF /* Alamofire.framework */,
+				A1C2F25E1FF4976500549ACF /* CryptoSwift.framework */,
+				A1C2F25F1FF4976500549ACF /* SnapKit.framework */,
+				A1C2F2601FF4976500549ACF /* SwiftyJSON.framework */,
+				A1C2F2571FF4975A00549ACF /* Realm.framework */,
+				A1C2F2581FF4975A00549ACF /* RealmSwift.framework */,
+				A1C2F2541FF4974F00549ACF /* Pods_bankcard.framework */,
+				A1FE62141FF27FB100639E9F /* Realm.framework */,
+				A1FE61E61FF2372600639E9F /* RealmSwift.framework */,
+				A1FE61E51FF2372600639E9F /* SwiftyJSON.framework */,
+				A1EBF3671FEB9BBD00F01555 /* Alamofire.framework */,
+				A1EBF3681FEB9BBD00F01555 /* CryptoSwift.framework */,
+				A1EBF3691FEB9BBD00F01555 /* SnapKit.framework */,
+				DC00115F8F445E03A2FFC31A /* Pods_bankcard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1BDD0DA1FEB4FB0004E1572 /* bankcard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BDD0ED1FEB4FB0004E1572 /* Build configuration list for PBXNativeTarget "bankcard" */;
+			buildPhases = (
+				C2BC0537411A459BB5039C74 /* [CP] Check Pods Manifest.lock */,
+				A1BDD0D71FEB4FB0004E1572 /* Sources */,
+				A1BDD0D81FEB4FB0004E1572 /* Frameworks */,
+				A1BDD0D91FEB4FB0004E1572 /* Resources */,
+				A1EBF36D1FEB9BE300F01555 /* ShellScript */,
+				3BF7CB1A6C9DCF8B83BA7661 /* [CP] Embed Pods Frameworks */,
+				D422ACD33DF13D2080FBEE3D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bankcard;
+			productName = bankcard;
+			productReference = A1BDD0DB1FEB4FB0004E1572 /* bankcard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1BDD0D31FEB4FB0004E1572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xun;
+				TargetAttributes = {
+					A1BDD0DA1FEB4FB0004E1572 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A1BDD0D61FEB4FB0004E1572 /* Build configuration list for PBXProject "bankcard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A1BDD0D21FEB4FB0004E1572;
+			productRefGroup = A1BDD0DC1FEB4FB0004E1572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1BDD0DA1FEB4FB0004E1572 /* bankcard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1BDD0D91FEB4FB0004E1572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AC498B1FEE1A7B00892176 /* color.ini in Resources */,
+				A1EBF35C1FEB8DBD00F01555 /* Localizable.strings in Resources */,
+				A1BDD0E91FEB4FB0004E1572 /* LaunchScreen.storyboard in Resources */,
+				A1EBF3561FEB8C9100F01555 /* InfoPlist.strings in Resources */,
+				A1BDD0E61FEB4FB0004E1572 /* Assets.xcassets in Resources */,
+				A1BDD0E41FEB4FB0004E1572 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BF7CB1A6C9DCF8B83BA7661 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bankcard/Pods-bankcard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bankcard/Pods-bankcard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1EBF36D1FEB9BE300F01555 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		C2BC0537411A459BB5039C74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bankcard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D422ACD33DF13D2080FBEE3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bankcard/Pods-bankcard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1BDD0D71FEB4FB0004E1572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AC49851FEE0F8100892176 /* SkinVC.swift in Sources */,
+				A14F102C1FED02A900E56E2F /* UIImage+Extension.swift in Sources */,
+				A1EBF3621FEB919C00F01555 /* Alert.swift in Sources */,
+				A1936B071FED62CF0006C4B8 /* BankCardVC.swift in Sources */,
+				A14F102E1FED0BF700E56E2F /* FileManager+Extension.swift in Sources */,
+				A1EBF36F1FEB9D8A00F01555 /* BankCardListVC.swift in Sources */,
+				A1BDD0DF1FEB4FB0004E1572 /* AppDelegate.swift in Sources */,
+				A1B3874C1FED3EB30047CD5B /* BankCardModel.swift in Sources */,
+				A14F102A1FECEDC200E56E2F /* BankCardCell.swift in Sources */,
+				A1EBF3651FEB98A300F01555 /* Localizable.swift in Sources */,
+				A1936B051FED5AB90006C4B8 /* String+Extension.swift in Sources */,
+				A1EBF34B1FEB7DF600F01555 /* PwdCharLab.swift in Sources */,
+				A183DBFF1FF4E1470014992D /* ActivityIndicator.swift in Sources */,
+				A18122341FEFDE3800D670EC /* CGRect+Extesion.swift in Sources */,
+				A14F10301FED169300E56E2F /* AppInit.swift in Sources */,
+				A1AC49891FEE18B200892176 /* SkinReusableView.swift in Sources */,
+				A154DBDE1FEB611600B37EA6 /* UIColor+Extension.swift in Sources */,
+				A1BDD1151FEB53F8004E1572 /* NavigationController.swift in Sources */,
+				A1BDD0F71FEB5080004E1572 /* PasswordVC.swift in Sources */,
+				A1EBF34E1FEB851100F01555 /* UserDefaults+Extension.swift in Sources */,
+				A1AC49871FEE0FA800892176 /* SkinCell.swift in Sources */,
+				A1BDD0F51FEB5067004E1572 /* BasicVC.swift in Sources */,
+				A1C05D5B1FEF816D00F932C6 /* CopyLab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1BDD0E21FEB4FB0004E1572 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BDD0E31FEB4FB0004E1572 /* Base */,
+				A1AC49801FEE02B600892176 /* en */,
+				A1AC49831FEE02DC00892176 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1BDD0E71FEB4FB0004E1572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BDD0E81FEB4FB0004E1572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1EBF3581FEB8C9100F01555 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EBF3571FEB8C9100F01555 /* zh-Hans */,
+				A1EBF3591FEB8C9300F01555 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1EBF35E1FEB8DBD00F01555 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EBF35D1FEB8DBD00F01555 /* en */,
+				A1EBF35F1FEB8DBE00F01555 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1BDD0EB1FEB4FB0004E1572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1BDD0EC1FEB4FB0004E1572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1BDD0EE1FEB4FB0004E1572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7BFEB337E9B8E4DAFD86D7 /* Pods-bankcard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 584W4MDQTF;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = bankcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zstarpoker.ddz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1BDD0EF1FEB4FB0004E1572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC10D9CCC4596532E3B4D84B /* Pods-bankcard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 584W4MDQTF;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = bankcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zstarpoker.ddz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1BDD0D61FEB4FB0004E1572 /* Build configuration list for PBXProject "bankcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BDD0EB1FEB4FB0004E1572 /* Debug */,
+				A1BDD0EC1FEB4FB0004E1572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BDD0ED1FEB4FB0004E1572 /* Build configuration list for PBXNativeTarget "bankcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BDD0EE1FEB4FB0004E1572 /* Debug */,
+				A1BDD0EF1FEB4FB0004E1572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1BDD0D31FEB4FB0004E1572 /* Project object */;
+}

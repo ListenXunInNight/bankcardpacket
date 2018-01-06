@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  bankcard
+
+  Created by xun on 2017/12/21.
+  Copyright © 2017年 xun. All rights reserved.
+*/
+"SetPWDInfo" = "为了财产安全保障\r\n请设置6位数安全密码";
+"InputPWDInfo" = "欢迎使用银行卡包\r\n请输入安全密码";
+"SetPWD" = "设置密码";
+"InputPWD" = "输入密码";
+"Prompt" = "提示";
+
+"Cancel" = "取消";
+"Confirm" = "确认";
+"ConfirmOfSetPWD" = "确认将它设置为安全密码？";
+"Bankcards" = "银行卡";
+"WrongPWD" = "密码错误，请重新输入！";
+
+"BankCard" = "银行卡";
+"Save" = "保存";
+"InputBankCardNO" = "请输入银行卡号";
+"InvalidCardNO" = " 是无效银行卡号";
+"UseTouchID" = "使用TouchID进入此App";
+
+"Can't Query Card Info" = "没有查询到该银行卡号信息";
+"ExistCardNO" = "这张银行卡已经存在.";
+"Skin" = "皮肤";
+/****** 颜色  ******/
+"Basic" = "基础";
+"Modern" = "摩登";
+"Dusty" = "灰暗";
+"Pastel" = "淡雅";
+"Fall" = "秋天";
+
+"Moody" = "忧郁";
+"Netural" = "自然";
+"Calm" = "冷淡";
+"Palyful" = "趣味";
+"Cloudy" = "浑浊";
+
+/****** ******/

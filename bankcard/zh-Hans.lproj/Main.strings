@@ -1,0 +1,63 @@
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "3RH-SA-81C"; */
+"3RH-SA-81C.normalTitle" = "6";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "4ZW-nk-Qy6"; */
+"4ZW-nk-Qy6.normalTitle" = "7";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "CvI-cr-yaL"; */
+"CvI-cr-yaL.normalTitle" = "4";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "IRt-wb-TjG"; */
+"IRt-wb-TjG.normalTitle" = "1";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "L58-R2-WW6"; */
+"L58-R2-WW6.normalTitle" = "5";
+
+/* Class = "UILabel"; text = "**** **** **** 4684 "; ObjectID = "LbB-xI-CCt"; */
+"LbB-xI-CCt.text" = "**** **** **** 4684 ";
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "R6M-6O-QTf"; */
+"R6M-6O-QTf.text" = "密码";
+
+/* Class = "UILabel"; text = "持卡人签名"; ObjectID = "RZp-Oe-ir5"; */
+"RZp-Oe-ir5.text" = "持卡人签名";
+
+/* Class = "UILabel"; text = "账号"; ObjectID = "Tmu-Wf-rZ5"; */
+"Tmu-Wf-rZ5.text" = "账号";
+
+/* Class = "UILabel"; text = "类型"; ObjectID = "Uxi-Yn-Mtk"; */
+"Uxi-Yn-Mtk.text" = "类型";
+
+/* Class = "UINavigationItem"; title = "设置密码"; ObjectID = "Zp0-Qm-Rzq"; */
+"Zp0-Qm-Rzq.title" = "设置密码";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "bbb-bc-EcE"; */
+"bbb-bc-EcE.normalTitle" = "8";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "fKg-fd-1A1"; */
+"fKg-fd-1A1.normalTitle" = "2";
+
+/* Class = "UIButton"; normalTitle = "←"; ObjectID = "fv8-xn-JON"; */
+"fv8-xn-JON.normalTitle" = "←";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "g9P-dW-DWG"; */
+"g9P-dW-DWG.normalTitle" = "3";
+
+/* Class = "UILabel"; text = "银行"; ObjectID = "hJf-Bi-VXf"; */
+"hJf-Bi-VXf.text" = "银行";
+
+/* Class = "UILabel"; text = "建设银行"; ObjectID = "szY-Tv-L3N"; */
+"szY-Tv-L3N.text" = "建设银行";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "u5J-P6-wPG"; */
+"u5J-P6-wPG.normalTitle" = "0";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "ubd-iQ-THC"; */
+"ubd-iQ-THC.normalTitle" = "9";
+
+/* Class = "UILabel"; text = "皮肤"; ObjectID = "yJB-Qq-G82"; */
+"yJB-Qq-G82.text" = "皮肤";
+
+/* Class = "UILabel"; text = "储蓄卡"; ObjectID = "yoy-ac-ujb"; */
+"yoy-ac-ujb.text" = "储蓄卡";

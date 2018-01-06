@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  bankcard
+
+  Created by xun on 2017/12/21.
+  Copyright © 2017年 xun. All rights reserved.
+*/
+
+"SetPWDInfo" = "In order to ensure possession security, please input & set enter password";
+"InputPWDInfo" = "Welcome\r\n Please input password";
+"SetPWD" = "set password";
+"InputPWD" = "input password";
+"Prompt" = "Prompt";
+
+"Cancel" = "cancel";
+"Confirm" = "confirm";
+"ConfirmOfSetPWD" = "Would you set it as security password?";
+"Bankcards" = "Bankcards";
+"WrongPWD" = "Wrong password! Please input again.";
+
+"BankCard" = "BANK CARD";
+"Save" = "save";
+"InputBankCardNO" = "Please input bank card number.";
+"InvalidCardNO" = " is invalid bank card NO.";
+"UseTouchID" = "Enter the app by using TouchID";
+
+"Can't Query Card Info" = "Can't query card number info.";
+"ExistCardNO" = "This bank card is existed.";
+"Skin" = "Skin";
+/****** 颜色  ******/
+"Basic" = "Basic";
+"Modern" = "Modern";
+"Dusty" = "Dusty";
+"Pastel" = "Pastel";
+"Fall" = "Fall";
+
+"Moody" = "Moody";
+"Netural" = "Netural";
+"Calm" = "Calm";
+"Palyful" = "Playful";
+"Cloudy" = "Cloudy";
