@@ -22,7 +22,7 @@
 "Save" = "save";
 "InputBankCardNO" = "Please input bank card number.";
 "InvalidCardNO" = " is invalid bank card NO.";
-"UseTouchID" = "Enter the app by using TouchID";
+"UseTouchID" = "Enter the app & check bank card by using TouchID";
 
 "Can't Query Card Info" = "Can't query card number info.";
 "ExistCardNO" = "This bank card is existed.";

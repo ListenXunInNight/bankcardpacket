@@ -21,7 +21,7 @@
 "Save" = "保存";
 "InputBankCardNO" = "请输入银行卡号";
 "InvalidCardNO" = " 是无效银行卡号";
-"UseTouchID" = "使用TouchID进入此App";
+"UseTouchID" = "使用Touch ID查看银行卡";
 
 "Can't Query Card Info" = "没有查询到该银行卡号信息";
 "ExistCardNO" = "这张银行卡已经存在.";
