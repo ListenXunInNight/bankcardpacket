@@ -21,14 +21,13 @@ class NavigationController: UINavigationController {
 
     @objc func appEnterBackground() {
         
-        cache.removeAll()
-        cache.append(contentsOf: self.viewControllers)
-        
         let last = self.viewControllers.last
         
         guard !(last?.isKind(of: PasswordVC.self))! else {
             return
         }
+        cache.removeAll()
+        cache.append(contentsOf: self.viewControllers)
         
         let pwdvc = PasswordVC.passwordVC()
         pwdvc.operation = .enter
